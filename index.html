@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <title>MathCore — Kalkulator Matematika</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#" aria-label="MathCore beranda">
+        <span class="brand-icon">∑</span><span><strong>MathCore</strong><small>Kalkulator Matematika</small></span>
+      </a>
+      <p class="nav-label">MENU UTAMA</p>
+      <nav id="navigation" aria-label="Cabang matematika">
+        <button class="nav-item active" data-module="home"><span>⌂</span> Beranda</button>
+        <button class="nav-item" data-module="algebra"><span>𝑥</span> Aljabar</button>
+        <button class="nav-item" data-module="geometry"><span>◇</span> Geometri &amp; Ruang <em>Segera</em></button>
+        <button class="nav-item" data-module="calculus"><span>∫</span> Kalkulus <em>Segera</em></button>
+        <button class="nav-item" data-module="trigonometry"><span>θ</span> Trigonometri <em>Segera</em></button>
+        <button class="nav-item" data-module="statistics"><span>σ</span> Statistika &amp; Probabilitas <em>Segera</em></button>
+        <button class="nav-item" data-module="discrete"><span>01</span> Matematika Diskrit <em>Segera</em></button>
+      </nav>
+      <div class="sidebar-bottom"><span class="status-dot"></span> Versi 0.1 · Tahap Aljabar</div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div><p class="eyebrow">WORKSPACE MATEMATIKA</p><h1 id="page-title">Beranda</h1></div>
+        <div class="top-pill">● Siap digunakan</div>
+      </header>
+      <section id="content" class="content" aria-live="polite"></section>
+      <footer>MathCore · Belajar, hitung, pahami.</footer>
+    </main>
+  </div>
+</body>
+</html>
